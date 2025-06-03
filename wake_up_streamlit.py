@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from streamlit_app import STREAMLIT_APPS
 import datetime
-
+ 
 # Set up Selenium webdriver
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
